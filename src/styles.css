@@ -1,0 +1,52 @@
+.pdf-uploader {
+    margin: 20px;
+    background-color: #474646;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pdf-uploader input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #7786ed;
+    border: 1px solid #616063;
+    color: #474646;
+}
+
+.pdf-uploader input:hover {
+    background-color: #6733e9;
+    color: #e7e5e5;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.pdf-viewer-container {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+
+.refresh-button {
+    margin: 20px;
+    background-color: #61cd28;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.refresh-button:hover {
+    background-color: #76f867;
+}
+
+.loading-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #0074d9; /* Choose your loading bar color */
+    transition: width 0.3s ease; /* Add a smooth transition effect */
+}
