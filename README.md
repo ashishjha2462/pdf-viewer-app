@@ -85,16 +85,16 @@ This component handles the file upload process and checks if the uploaded file i
 
 1. Clone the repository:
 
-   git clone https://github.com/ashishjha2462/pdf-viewer-app.git
-   cd pdf-viewer-app
+   `git clone https://github.com/ashishjha2462/pdf-viewer-app.git`
+   `cd pdf-viewer-app`
 
 2. Install the dependencies:
 
-  npm install
+  `npm install`
 
 3. Start the development server:
 
-  npm start
+  `npm start`
 
 4. Open http://localhost:3000 in your browser to view the app.
 
